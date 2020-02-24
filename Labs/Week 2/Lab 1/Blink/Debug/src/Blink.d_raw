@@ -1,0 +1,19 @@
+src\Blink.obj: ../src/Blink.c
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdio.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h
+src\Blink.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h
+src\Blink.obj: C:/ti/tivaware_c_series_2_1_4_178/inc/hw_memmap.h
+src\Blink.obj: C:/ti/tivaware_c_series_2_1_4_178/inc/tm4c123gh6pm.h
+src\Blink.obj: C:/ti/tivaware_c_series_2_1_4_178/driverlib/gpio.h
+src\Blink.obj: C:/ti/tivaware_c_series_2_1_4_178/driverlib/sysctl.h
+src\Blink.obj: D:/Documents/Systems/ENCE-361/Labs/Week\\ 2/Lab\\ 1/Blink/include/delay.h

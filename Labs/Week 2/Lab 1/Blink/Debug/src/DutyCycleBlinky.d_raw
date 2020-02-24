@@ -1,0 +1,19 @@
+src\DutyCycleBlinky.obj: ../src/DutyCycleBlinky.c
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdio.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h
+src\DutyCycleBlinky.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h
+src\DutyCycleBlinky.obj: C:/ti/tivaware_c_series_2_1_4_178/inc/hw_memmap.h
+src\DutyCycleBlinky.obj: C:/ti/tivaware_c_series_2_1_4_178/inc/tm4c123gh6pm.h
+src\DutyCycleBlinky.obj: C:/ti/tivaware_c_series_2_1_4_178/driverlib/gpio.h
+src\DutyCycleBlinky.obj: C:/ti/tivaware_c_series_2_1_4_178/driverlib/sysctl.h
+src\DutyCycleBlinky.obj: D:/Documents/Systems/ENCE-361/Labs/Week\\ 2/Lab\\ 1/Blink/include/delay.h
