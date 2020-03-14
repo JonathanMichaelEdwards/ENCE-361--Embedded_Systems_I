@@ -124,15 +124,17 @@ void doubleInt_2(const int num, int **value)
 
 
 
+
+
 int main()
 {
-    // const char *message = "Hello I am Jonathan: ";
+    const char *message = "Hello I am Jonathan: ";
     const int luckyNumber = 6;
 
     // pre-allocate some space - before passing into function (only need single ptr)
     // need enough space either overlapping will occur
-    // char *cpyText_1 = initPtr(message);
-    // char *cpyText_2 = initPtr(message);
+    char *cpyText_1 = initPtr(message);
+    char *cpyText_2 = initPtr(message);
 
     // if pre defined NULL - then we need a dble ptr
     // char *cpyText_3 = NULL;
@@ -144,18 +146,19 @@ int main()
     int *value_2 = &a;
 
     // string pointers
+    doubleInt_2(luckyNumber, &value_2);
     
-    // singlePoninter(message, cpyText_1);
-    // printf("outside *2: %p\n", cpyText_2);
-    // singlePoninter_2(message, cpyText_2);
+    singlePoninter(message, cpyText_1);
+    printf("outside *2: %p\n", cpyText_2);
+    singlePoninter_2(message, cpyText_2);
 
-    // doublePoninter(message, &cpyText_2);  // reference of the first pointer
+    doublePoninter(message, &cpyText_2);  // reference of the first pointer
     // printf("outside dbl *1:  %p\n", cpyText_3);
     // doublePoninter_2(message, &cpyText_3); 
     // printf("outside dbl *1:  %p\n", cpyText_3);
 
-    // puts(cpyText_1);
-    // puts(cpyText_2);
+    puts(cpyText_1);
+    puts(cpyText_2);
 
     // puts(cpyText_3);
     // puts(cpyText_4);
@@ -165,7 +168,7 @@ int main()
 
     // int pointers
     // singleInt(luckyNumber, &value);
-    doubleInt_2(luckyNumber, &value_2);
+    // doubleInt_2(luckyNumber, &value_2);
     // _value_2 = *value_2;
     
     
