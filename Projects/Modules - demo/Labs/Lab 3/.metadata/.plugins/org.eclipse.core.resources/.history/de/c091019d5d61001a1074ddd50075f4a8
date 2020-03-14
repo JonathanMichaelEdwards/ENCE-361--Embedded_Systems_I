@@ -1,0 +1,37 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/ADCdemo1.c \
+../src/buttons4.c \
+../src/circBufT.c 
+
+C_DEPS += \
+./src/ADCdemo1.d \
+./src/buttons4.d \
+./src/circBufT.d 
+
+OBJS += \
+./src/ADCdemo1.obj \
+./src/buttons4.obj \
+./src/circBufT.obj 
+
+OBJS__QUOTED += \
+"src\ADCdemo1.obj" \
+"src\buttons4.obj" \
+"src\circBufT.obj" 
+
+C_DEPS__QUOTED += \
+"src\ADCdemo1.d" \
+"src\buttons4.d" \
+"src\circBufT.d" 
+
+C_SRCS__QUOTED += \
+"../src/buttons4.c" \
+"../src/circBufT.c" 
+
+

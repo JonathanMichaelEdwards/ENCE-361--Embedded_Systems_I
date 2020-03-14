@@ -1,0 +1,8 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS :=
+
+LIBS := -l"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib/libc.a" -l"/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib"
+

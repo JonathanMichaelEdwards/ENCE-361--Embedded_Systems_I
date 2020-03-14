@@ -17,6 +17,14 @@
         "reloadButton": " ",
         "commands": [
             {
+                "name": "Build $(checklist)",
+                "singleInstance": true,
+                "command": "cd Debug/Builds && make build",
+            }, {
+                "name": "Flash  $(arrow-right)",
+                "singleInstance": true,
+                "command": "cd Debug/Builds && make flash",
+            }, {
                 "name": "Build - Flash $(checklist) $(arrow-right)",
                 "singleInstance": true,
                 "command": "cd Debug/Builds && make all",

@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "test",
+            "label": "Build",
             "type": "shell",
-            "command": "cd Debug/Builds && make all",
+            "command": "cd Debug/Builds && make build",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -15,6 +15,16 @@
                 "showReuseMessage": true,
                 "clear": true
             }
-        }
+        },
+
+        {  // added a custom key binding to flash
+            "label": "Flash",
+            "type": "shell",
+            "command": "cd Debug/Builds && make flash",
+            "presentation": {
+                "showReuseMessage": true,
+                "clear": true
+            }
+        },
     ]
 }

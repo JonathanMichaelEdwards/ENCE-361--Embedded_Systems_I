@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 385: warning #169-D: argument of type "CircBuff *" is incompatible with parameter of type "CircBuff **"
+"../src/main.c", line 392: error #169: argument of type "Acc *" is incompatible with parameter of type "Acc"
+At end of source: error #68: expected a "}"
+2 errors detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

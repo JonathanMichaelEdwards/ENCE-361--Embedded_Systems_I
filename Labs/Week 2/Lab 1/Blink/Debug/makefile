@@ -11,7 +11,8 @@ GEN_CMDS__FLAG :=
 
 ORDERED_OBJS += \
 "./tm4c123gh6pm_startup_ccs.obj" \
-"./src/DutyCycleBlinky.obj" \
+"./src/Peripherals.obj" \
+"./src/PressToBlink.obj" \
 "./src/delay.obj" \
 "../tm4c123gh6pm.cmd" \
 $(GEN_CMDS__FLAG) \
@@ -159,8 +160,8 @@ Blink.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "tm4c123gh6pm_startup_ccs.obj" "src\DutyCycleBlinky.obj" "src\delay.obj" 
-	-$(RM) "tm4c123gh6pm_startup_ccs.d" "src\DutyCycleBlinky.d" "src\delay.d" 
+	-$(RM) "tm4c123gh6pm_startup_ccs.obj" "src\Peripherals.obj" "src\PressToBlink.obj" "src\delay.obj" 
+	-$(RM) "tm4c123gh6pm_startup_ccs.d" "src\Peripherals.d" "src\PressToBlink.d" "src\delay.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

@@ -1,0 +1,62 @@
+{
+    "files.associations": {
+        "hw_memmap.h": "c",
+        "sysctl.h": "c",
+        "gpio.h": "c",
+        "hi.h": "c",
+        "hello.h": "c",
+        "cstdint": "cpp",
+        "random": "cpp",
+        "*.tcc": "cpp",
+        "delay.h": "c",
+        "delay_2.h": "c",
+        "tm4c123gh6pm.h": "c"
+    },
+
+    "actionButtons": {
+        "defaultColor": "light-grey",
+        "reloadButton": " ",
+
+        // Linux
+        // "commands": [
+        //     {
+        //         "name": "Clean $(trash)",
+        //         "singleInstance": true,
+        //         "command": "cd Linux && make clean",
+        //     }, {
+        //         "name": "Build $(checklist)",
+        //         "singleInstance": true,
+        //         "command": "cd Linux/Builds && make build",
+        //     }, {
+        //         "name": "Flash  $(arrow-right)",
+        //         "singleInstance": true,
+        //         "command": "cd Linux/Builds && make flash",
+        //     }, {
+        //         "name": "Build - Flash $(checklist) $(arrow-right)",
+        //         "singleInstance": true,
+        //         "command": "cd Linux/Builds && make all",
+        //     }
+        // ]
+        
+        // Windows
+        "commands": [
+            {
+                "name": "Clean $(trash)",
+                "singleInstance": true,
+                "command": "cd Debug && make clean",
+            }, {
+                "name": "Build $(checklist)",
+                "singleInstance": true,
+                "command": "cd Build && gmake build",
+            }, {
+                "name": "Flash  $(arrow-right)",
+                "singleInstance": true,
+                "command": "cd Build && make flash",
+            }, {
+                "name": "Build - Flash $(checklist) $(arrow-right)",
+                "singleInstance": true,
+                "command": "cd Build && gmake all",
+            }
+        ]
+    },
+}

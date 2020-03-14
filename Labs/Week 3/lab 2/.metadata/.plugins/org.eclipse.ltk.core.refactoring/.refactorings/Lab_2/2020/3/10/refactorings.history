@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Lab_2/src/pwmGen4.c&apos; to &apos;readAcc4.c&apos;" description="Rename resource &apos;pwmGen4.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/pwmGen4.c" name="readAcc4.c" stamp="1583274490134" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Lab_2/src/readAcc4.c&apos; to &apos;_changed_readAcc4.c&apos;" description="Rename resource &apos;readAcc4.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/readAcc4.c" name="_changed_readAcc4.c" stamp="1583274676644" updateReferences="true"/>
+</session>

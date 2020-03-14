@@ -1,0 +1,17 @@
+want all files to be in the folders as they are please...
+e.g
+
+- include
+	* .h files
+- libs
+	* OLED libary
+- src
+	* .c files
+
+- There are a few different examples for testing the modules in the            Examples folder.
+- All the labs are in the         Labs folder
+- Modules are not perfect yet but        are "all" layed out apart from interuppts -> will be added soon
+
+- If u have any problem linking e.g "cannot find files from header"
+    "Remember" right click on the file that ur working on and changes the includes.
+- You can also set the folders with the project. e.g same as above but for whole project.

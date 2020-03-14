@@ -1,0 +1,609 @@
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building target: "hello.out"
+Invoking: ARM Linker
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"hello.map" --heap_size=0 --stack_size=512 -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="hello_linkInfo.xml" --rom_model -o "hello.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "hello.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 clean -O 
+ 
+rm -rf  "hello.hex"  "hello.out" 
+rm -rf "main.obj" "tm4c123gh6pm_startup_ccs.obj" 
+rm -rf "main.d" "tm4c123gh6pm_startup_ccs.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/DutyCycleBlinky.obj' failed
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/delay.obj' failed
+Building file: "../main.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/DutyCycleBlinky.obj' failed
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/delay.obj' failed
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/DutyCycleBlinky.obj' failed
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:14: recipe for target 'src/delay.obj' failed
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/DutyCycleBlinky.obj' failed
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:14: recipe for target 'src/delay.obj' failed
+Building file: "../main.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/inc" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:14: recipe for target 'src/delay.obj' failed
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/DutyCycleBlinky.obj' failed
+Building file: "../main.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/inc" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/inc" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/inc" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:7: recipe for target 'src/DutyCycleBlinky.obj' failed
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/inc" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:14: recipe for target 'src/delay.obj' failed
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178/inc" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:14: recipe for target 'src/delay.obj' failed
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+Finished building: "../src/DutyCycleBlinky.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+Finished building: "../src/delay.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+Finished building: "../src/DutyCycleBlinky.c"
+ 
+Building target: "hello.out"
+Invoking: ARM Linker
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"hello.map" --heap_size=256 --stack_size=512 -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="hello_linkInfo.xml" --rom_model -o "hello.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "./src/DutyCycleBlinky.obj" "./src/delay.obj" "../tm4c123gh6pm.cmd"  -l"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib/libc.a" -l"/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./src/DutyCycleBlinky.obj"
+error #10010: errors encountered during linking; "hello.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'hello.out' failed
+gmake[1]: *** [hello.out] Error 1
+gmake: *** [all] Error 2
+makefile:141: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building target: "hello.out"
+Invoking: ARM Linker
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"hello.map" --heap_size=256 --stack_size=512 -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="hello_linkInfo.xml" --rom_model -o "hello.out" "./tm4c123gh6pm_startup_ccs.obj" "./src/DutyCycleBlinky.obj" "./src/delay.obj" "../tm4c123gh6pm.cmd"  -l"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib/libc.a" -l"/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "hello.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+gmake[1]: 'hello.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 clean -O 
+ 
+rm -rf  "hello.hex"  "hello.out" 
+rm -rf "tm4c123gh6pm_startup_ccs.obj" "src/DutyCycleBlinky.obj" "src/delay.obj" 
+rm -rf "tm4c123gh6pm_startup_ccs.d" "src/DutyCycleBlinky.d" "src/delay.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+Finished building: "../src/delay.c"
+ 
+Building file: "../src/temp src/Blink.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/temp src/Blink.d_raw" --obj_directory="src/temp src"  "../src/temp src/Blink.c"
+"../src/temp src/Blink.c", line 66: warning #225-D: function "delayMs" declared implicitly
+Finished building: "../src/temp src/Blink.c"
+ 
+Building file: "../src/temp src/PressToBlink.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/temp src/PressToBlink.d_raw" --obj_directory="src/temp src"  "../src/temp src/PressToBlink.c"
+Finished building: "../src/temp src/PressToBlink.c"
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+Finished building: "../src/DutyCycleBlinky.c"
+ 
+Building file: "../src/temp src/ColorChange.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/temp src/ColorChange.d_raw" --obj_directory="src/temp src"  "../src/temp src/ColorChange.c"
+Finished building: "../src/temp src/ColorChange.c"
+ 
+Building target: "hello.out"
+Invoking: ARM Linker
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"hello.map" --heap_size=256 --stack_size=512 -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="hello_linkInfo.xml" --rom_model -o "hello.out" "./tm4c123gh6pm_startup_ccs.obj" "./src/DutyCycleBlinky.obj" "./src/delay.obj" "./src/temp src/Blink.obj" "./src/temp src/ColorChange.obj" "./src/temp src/PressToBlink.obj" "../tm4c123gh6pm.cmd"  -l"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib/libc.a" -l"/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./src/temp src/Blink.obj"
+error #10056: symbol "initTivo" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./src/temp src/ColorChange.obj"
+error #10056: symbol "main" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./src/temp src/ColorChange.obj"
+error #10056: symbol "main" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./src/temp src/PressToBlink.obj"
+error #10010: errors encountered during linking; "hello.out" not built
+ 
+>> Compilation failure
+makefile:149: recipe for target 'hello.out' failed
+gmake[1]: *** [hello.out] Error 1
+gmake: *** [all] Error 2
+makefile:145: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../temp src/Blink.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="temp src/Blink.d_raw" --obj_directory="temp src"  "../temp src/Blink.c"
+"../temp src/Blink.c", line 66: warning #225-D: function "delayMs" declared implicitly
+Finished building: "../temp src/Blink.c"
+ 
+Building file: "../temp src/PressToBlink.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="temp src/PressToBlink.d_raw" --obj_directory="temp src"  "../temp src/PressToBlink.c"
+Finished building: "../temp src/PressToBlink.c"
+ 
+Building file: "../temp src/ColorChange.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="temp src/ColorChange.d_raw" --obj_directory="temp src"  "../temp src/ColorChange.c"
+Finished building: "../temp src/ColorChange.c"
+ 
+Building target: "hello.out"
+Invoking: ARM Linker
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"hello.map" --heap_size=256 --stack_size=512 -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="hello_linkInfo.xml" --rom_model -o "hello.out" "./tm4c123gh6pm_startup_ccs.obj" "./src/DutyCycleBlinky.obj" "./src/delay.obj" "./temp src/Blink.obj" "./temp src/ColorChange.obj" "./temp src/PressToBlink.obj" "../tm4c123gh6pm.cmd"  -l"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib/libc.a" -l"/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./temp src/Blink.obj"
+error #10056: symbol "initTivo" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./temp src/ColorChange.obj"
+error #10056: symbol "main" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./temp src/ColorChange.obj"
+error #10056: symbol "main" redefined: first defined in "./src/DutyCycleBlinky.obj"; redefined in "./temp src/PressToBlink.obj"
+error #10010: errors encountered during linking; "hello.out" not built
+ 
+>> Compilation failure
+makefile:149: recipe for target 'hello.out' failed
+gmake[1]: *** [hello.out] Error 1
+gmake: *** [all] Error 2
+makefile:145: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 clean -O 
+ 
+rm -rf  "hello.hex"  "hello.out" 
+rm -rf "tm4c123gh6pm_startup_ccs.obj" "src/DutyCycleBlinky.obj" "src/delay.obj" "temp src/Blink.obj" "temp src/ColorChange.obj" "temp src/PressToBlink.obj" 
+rm -rf "tm4c123gh6pm_startup_ccs.d" "src/DutyCycleBlinky.d" "src/delay.d" "temp src/Blink.d" "temp src/ColorChange.d" "temp src/PressToBlink.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+Finished building: "../src/delay.c"
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+Finished building: "../src/DutyCycleBlinky.c"
+ 
+Building target: "hello.out"
+Invoking: ARM Linker
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"hello.map" --heap_size=256 --stack_size=512 -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="hello_linkInfo.xml" --rom_model -o "hello.out" "./tm4c123gh6pm_startup_ccs.obj" "../Linux/tm4c123gh6pm_startup_ccs.obj" "../Linux/src/DutyCycleBlinky.obj" "../Linux/src/delay.obj" "./src/DutyCycleBlinky.obj" "./src/delay.obj" "../tm4c123gh6pm.cmd"  -l"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib/libc.a" -l"/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "ResetISR" redefined: first defined in "./tm4c123gh6pm_startup_ccs.obj"; redefined in "../Linux/tm4c123gh6pm_startup_ccs.obj"
+ 
+error #10056: symbol "g_pfnVectors" redefined: first defined in "./tm4c123gh6pm_startup_ccs.obj"; redefined in "../Linux/tm4c123gh6pm_startup_ccs.obj"
+>> Compilation failure
+makefile:151: recipe for target 'hello.out' failed
+error #10056: symbol "dutyCycle_20" redefined: first defined in "../Linux/src/DutyCycleBlinky.obj"; redefined in "./src/DutyCycleBlinky.obj"
+error #10056: symbol "initTivo" redefined: first defined in "../Linux/src/DutyCycleBlinky.obj"; redefined in "./src/DutyCycleBlinky.obj"
+error #10056: symbol "main" redefined: first defined in "../Linux/src/DutyCycleBlinky.obj"; redefined in "./src/DutyCycleBlinky.obj"
+error #10056: symbol "delayMicro" redefined: first defined in "../Linux/src/delay.obj"; redefined in "./src/delay.obj"
+error #10056: symbol "delayMilli" redefined: first defined in "../Linux/src/delay.obj"; redefined in "./src/delay.obj"
+error #10010: errors encountered during linking; "hello.out" not built
+gmake[1]: *** [hello.out] Error 1
+gmake: *** [all] Error 2
+makefile:147: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 clean -O 
+ 
+rm -rf  "hello.hex"  "hello.out" 
+rm -rf "tm4c123gh6pm_startup_ccs.obj" "src/DutyCycleBlinky.obj" "src/delay.obj" 
+rm -rf "tm4c123gh6pm_startup_ccs.d" "src/DutyCycleBlinky.d" "src/delay.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+/home/jonathan/ti/ccs930/ccs/utils/bin/gmake -k -j 12 all -O 
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+Finished building: "../src/delay.c"
+ 
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="/home/jonathan/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+Finished building: "../src/DutyCycleBlinky.c"
+ 
+Building target: "hello.out"
+Invoking: ARM Linker
+"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"hello.map" --heap_size=256 --stack_size=512 -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="hello_linkInfo.xml" --rom_model -o "hello.out" "./tm4c123gh6pm_startup_ccs.obj" "./src/DutyCycleBlinky.obj" "./src/delay.obj" "../tm4c123gh6pm.cmd"  -l"/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib/libc.a" -l"/home/jonathan/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "hello.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project hello ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 clean -O 
+ 
+rm -rf  "hello.hex"  "hello.out" 
+rm -rf "tm4c123gh6pm_startup_ccs.obj" "src/DutyCycleBlinky.obj" "src/delay.obj" 
+rm -rf "tm4c123gh6pm_startup_ccs.d" "src/DutyCycleBlinky.d" "src/delay.d" 
+process_begin: CreateProcess(NULL, rm -rf hello.hex hello.out, ...) failed.
+ 
+process_begin: CreateProcess(NULL, rm -rf tm4c123gh6pm_startup_ccs.obj src/DutyCycleBlinky.obj src/delay.obj, ...) failed.
+ 
+process_begin: CreateProcess(NULL, rm -rf tm4c123gh6pm_startup_ccs.d src/DutyCycleBlinky.d src/delay.d, ...) failed.
+ 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/delay.obj' failed
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/DutyCycleBlinky.obj' failed
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project hello ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 clean -O 
+ 
+DEL /F  "hello.hex"  "hello.out" 
+DEL /F "tm4c123gh6pm_startup_ccs.obj" "src\DutyCycleBlinky.obj" "src\delay.obj" 
+DEL /F "tm4c123gh6pm_startup_ccs.d" "src\DutyCycleBlinky.d" "src\delay.d" 
+Could Not Find C:\Users\jonmi\Desktop\Arm_Linux_Pro\hello\Debug\hello.hex
+Could Not Find C:\Users\jonmi\Desktop\Arm_Linux_Pro\hello\Debug\src\DutyCycleBlinky.obj
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/delay.obj' failed
+"../src/delay.c", line 11: fatal error #1965: cannot open source file "driverlib/sysctl.h"
+1 catastrophic error detected in the compilation of "../src/delay.c".
+Compilation terminated.
+gmake: *** [src/delay.obj] Error 1
+Building file: "../src/DutyCycleBlinky.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/DutyCycleBlinky.d_raw" --obj_directory="src"  "../src/DutyCycleBlinky.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/DutyCycleBlinky.obj' failed
+"../src/DutyCycleBlinky.c", line 14: fatal error #1965: cannot open source file "inc/hw_memmap.h"
+1 catastrophic error detected in the compilation of "../src/DutyCycleBlinky.c".
+Compilation terminated.
+gmake: *** [src/DutyCycleBlinky.obj] Error 1
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello" --include_path="/home/jonathan/ti/tivaware_c_series_2_1_4_178" --include_path="C:/Users/jonmi/Desktop/Arm_Linux_Pro/hello/include" --include_path="/home/jonathan/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

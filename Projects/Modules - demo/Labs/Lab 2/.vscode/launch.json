@@ -1,0 +1,17 @@
+// openocd -f interface/ti-icdi-auto.cfg -f target/stellaris.cfg -c "program Blink.bin verify reset exit"
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "name": "Debug (OpenOCD)", 
+            "runToMain": true,
+
+            "windows": { "executable": "Debug/Lab_2.out", "configFiles": ["Build/tm4c123gxl.cfg"] },
+            // "linux"  : { "executable": "Linux/Blink.out",   "configFiles": ["Linux/tm4c123gxl.cfg"]   }
+        }
+    ]
+}

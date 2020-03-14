@@ -1,0 +1,64 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {  // added a custom key binding to flash
+            "label": "Clean",
+            "type": "shell",
+            "presentation": {
+                "showReuseMessage": true,
+                "clear": true
+            },
+
+            "windows": { "command": "cd Windows && make clean" },
+            "linux"  : { "command": "cd Linux && make clean"   },
+        },
+
+        {
+            "label": "Build",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }, 
+            "presentation": {
+                "showReuseMessage": true,
+                "clear": true
+            },
+
+            "windows": { "command": "cd Windows/Builds && make build" },
+            "linux"  : { "command": "cd Linux/Builds && make build"   },
+        },
+
+        {
+            "label": "Flash",
+            "type": "shell",
+            "presentation": {
+                "showReuseMessage": true,
+                "clear": true
+            },
+
+            "windows": { "command": "cd Windows/Builds && make flash" },
+            "linux"  : { "command": "cd Linux/Builds && make flash"   },
+        },
+    ]
+}
+
+
+// // Place your key bindings in this file to override the defaultsauto[]
+// [
+//     {
+//         "key": "ctrl+shift+`",
+//         "command": "workbench.action.terminal.openNativeConsole",
+//         "when": "!terminalFocus"
+//     }, {
+//         "key": "f4",
+//         "command": "workbench.action.tasks.runTask",
+//         "args": "Flash"
+//     }, {
+//         "key": "ctrl+shift+c",
+//         "command": "workbench.action.tasks.runTask",
+//         "args": "Clean"
+//     }
+// ]
