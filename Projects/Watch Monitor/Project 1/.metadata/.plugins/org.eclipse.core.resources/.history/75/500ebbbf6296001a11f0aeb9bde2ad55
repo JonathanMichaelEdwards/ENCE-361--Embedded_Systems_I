@@ -1,0 +1,31 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/init.c \
+../src/kernal.c 
+
+C_DEPS += \
+./src/init.d \
+./src/kernal.d 
+
+OBJS += \
+./src/init.obj \
+./src/kernal.obj 
+
+OBJS__QUOTED += \
+"src\init.obj" \
+"src\kernal.obj" 
+
+C_DEPS__QUOTED += \
+"src\init.d" \
+"src\kernal.d" 
+
+C_SRCS__QUOTED += \
+"../src/kernal.c" 
+
+

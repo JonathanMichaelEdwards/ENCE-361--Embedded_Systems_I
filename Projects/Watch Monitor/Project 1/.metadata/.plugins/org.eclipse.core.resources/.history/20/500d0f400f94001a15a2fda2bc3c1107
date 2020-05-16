@@ -1,0 +1,27 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     display.h
+//  
+//  Author:       Jonathan Edwards
+//  Co-Authors:   Grace Kaye-Blake, Riley Symon
+// 
+//  Description:   
+//  ==========================================================================
+
+
+#ifndef DISPLAY_H
+#define DISPLAY_H
+
+
+// Standard libaries
+#include "init.h"
+
+
+
+// -- functions --------------------------------------------------------------------------------
+void displayFSM(bool dispMode, bool dispConversion, uint32_t stepCount, uint32_t distance);
+
+
+#endif // !DISPLAY

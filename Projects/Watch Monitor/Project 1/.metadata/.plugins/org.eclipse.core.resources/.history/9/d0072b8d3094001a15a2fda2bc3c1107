@@ -1,0 +1,145 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     model.c
+//  
+//  Authors:       P.J. Bones  UCECE department, Grace Kaye-Blake,
+//                 Jonathan Edwards, Riley Symon
+// 
+//  Description:   
+//  ==========================================================================
+
+
+ // Standard libaries
+ #include <stdint.h>
+ #include <stdlib.h>
+ #include "math.h"
+ #include <stdbool.h>
+
+// Arm Libaries
+#include "inc/hw_memmap.h"
+#include "inc/hw_types.h"
+#include "driverlib/adc.h"
+#include "driverlib/pwm.h"
+#include "driverlib/gpio.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/systick.h"
+#include "driverlib/interrupt.h"
+#include "driverlib/debug.h"
+#include "driverlib/uart.h"
+#include "utils/ustdlib.h"
+
+// Project Libaries - created by us
+#include "init.h"
+#include "FSM/model.h"
+#include "Buffer/circBufT.h"
+#include "Peripherals/buttons4.h"
+#include "Peripherals/acc.h"
+
+
+#define NORM_2(ACC)         (uint32_t)(((sqrtf((ACC.x)*(ACC.x) + (ACC.y)*(ACC.y) + (ACC.z)*(ACC.z))) * 10.f) + 0.5f)
+
+
+// -- Global Varibles, defines and Structures --------------------------------------------------
+enum units { RAW = 0, G = 1, MPSS = 2 };  // btn States
+
+
+
+// /** -----------------------------------------------------------------------------
+// //       Get the Circular Buffer means for x, y and z with their references 
+// // 
+// // @param ptr_circBuff - data about each circular buffer
+// // @param refAcc       - reference acceleration
+// // @param buffSamples  - buffer sample number
+// // 
+// // @return refAcc      - acceleration reference stored in a structure
+// // ---------------------------------------------------------------------------*/
+// RefAcc buffMean(CircBuff *circBuff, RefAcc refAcc, uint8_t buffSamples)
+// {
+//     refAcc.x = getCircBufMean(&circBuff->x, buffSamples);
+//     refAcc.y = getCircBufMean(&circBuff->y, buffSamples);
+//     refAcc.z = getCircBufMean(&circBuff->z, buffSamples);
+
+//     return refAcc;
+// }
+
+
+/** -----------------------------------------------------------------------------
+//       Write x, y and z accelerometer acceleration values to each of their
+//                         individual circular buffers 
+// 
+// @param circBuff     - data about each circular buffer
+// @param acc          - accelerometer data
+// 
+// @return circBuff    - updated data about each circular buffer
+// ---------------------------------------------------------------------------*/
+CircBuff writeBuff(CircBuff circBuff, Acc acc)
+{
+    writeCircBuf(&circBuff.x, acc.x);
+    writeCircBuf(&circBuff.y, acc.y);
+    writeCircBuf(&circBuff.z, acc.z);
+
+    return circBuff;
+}
+
+
+/** -----------------------------------------------------------------------------
+//       Display accelerometor information according to the btn state
+// displays: raw acceleration -> acceleration in g -> acceleration in ms^-2
+// 
+// @param acc             - accelerometer data
+// @param ptr_accSamples  - total amount of samples from the accelerometer
+
+// @return acc            - updated data about each circular buffer
+// ---------------------------------------------------------------------------*/
+Acc accUpdate(Acc acc, uint32_t *accSamples)
+{
+    uint32_t _accSamples = *accSamples;  // temp sample value
+
+    // x100 to acc.* to go from m -> cm (resolution) 
+    acc.x = ((acc.x*GRAVITY*100) / ACCEL_SENSITVITY);
+    acc.y = ((acc.y*GRAVITY*100) / ACCEL_SENSITVITY);
+    acc.z = ((acc.z*GRAVITY*100) / ACCEL_SENSITVITY);
+
+    *accSamples = _accSamples;  // pass temp sample back to original
+
+    return acc;
+}  
+
+
+ProcessData updateTickProcess(bool *detectCount, ProcessData data, CurrentState currState)
+{
+
+
+        // Read raw values from accelerometer
+        getAccelData(&data.acc.x, &data.acc.y, &data.acc.z);
+
+        // // Write accelerometer values to each individual buffer
+        // data.circBuff = writeBuff(data.circBuff, data.acc);
+        // data.samplesBuffered++;
+        // if (data.samplesBuffered > BUF_SIZE)
+        //     data.samplesBuffered = BUF_SIZE;
+
+        // // Update accelerometer values
+        // data.acc.x = getCircBufMean(&(data.circBuff.x), data.samplesBuffered);
+        // data.acc.y = getCircBufMean(&(data.circBuff.y), data.samplesBuffered);
+        // data.acc.z = getCircBufMean(&(data.circBuff.z), data.samplesBuffered);
+
+        // data.acc = accUpdate(data.acc, &data.accSamples);  // Converts accelerometer data to acceleration
+
+        // data.acc.currNorm = NORM_2(data.acc);
+
+        // // Check to see if a step was taken ----------------------------
+        // // - i.e acceleration norm increases from less than 1.5G to greater that 1.5G
+        // if ((data.acc.currNorm) < (uint32_t)((1.5*10)*(GRAVITY_IN_CM))) {   // remember resolution already in cm
+        //     *detectCount = true;
+        // } else if (*detectCount) {  // When norm is greater then 1.5G - incr step
+        //         currState.stepCount++;
+        //         currState.distance = (currState.stepCount * 90); // convert m -> cm
+        //         *detectCount = false;
+        // }
+
+    return currState;
+}
+

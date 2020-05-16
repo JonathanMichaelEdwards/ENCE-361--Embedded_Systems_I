@@ -1,0 +1,148 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project - Milestone 1 
+//
+//  FILE NAME:     main.c
+//  
+//  Authors:       P.J. Bones  UCECE department, Grace Kaye-Blake,
+//                 Jonathan Edwards, Riley Symon
+// 
+//  Description:   Milestone 1 involves generating a TIVA program to read data 
+//                 from the Orbit boards three-axis accelerometer and display
+//                 that data on the OLED display.
+//  ==========================================================================
+
+
+#include "init.h"
+
+#define NORM_2(ACC)         (uint32_t)((sqrtf((ACC.x)*(ACC.x) + (ACC.y)*(ACC.y) + (ACC.z)*(ACC.z))))
+
+
+
+// -----------------------------------------------------------------------------
+//                              Executes the program                           
+// -----------------------------------------------------------------------------
+int main(void)
+{
+    // Stored structures
+    Acc acc = { 0 };
+    RefAcc refAcc = { 0 };
+    CircBuff circBuff = { 0 };
+
+    CurrentState currState = { 0 };
+
+    uint8_t samplesBuffered = 0;   // Number of samples buffered
+    uint8_t unitState = 2;         // Unit display state                                ------------- change code
+
+    uint32_t accSamples = 0;       // Number of samples taken
+
+
+
+
+
+/////////////////////////// part 2 ---------------------------------------------
+
+    enum swModes { NORMAL=0, TEST };
+    bool dispMode = true;  // State of prg i.e steps or distance  i.e (1 = step, 0 = distance)
+    bool dispConversion = true;
+
+
+
+    // calculations stored in a pointer(s)
+    // uint32_t stepCount = 1150;  // test for state 5
+    // uint32_t stepCount = 100;  // test for state 3
+    uint32_t stepCount = 0;  // test for state 3              // change step count for "testing!!!"
+
+    uint8_t dbStepCount = 0;
+    bool currState.detectCount = false;
+
+    uint32_t distance = 0;
+
+
+    // state of the FSM
+    uint8_t btnName = NUM_BUTS;
+    uint8_t btnState = NO_CHANGE;
+
+// btnName:          UP = 0, DOWN, LEFT, RIGHT, NUM_BUTS
+// butStates:        RELEASED = 0, PUSHED, NO_CHANGE   
+
+    // toggle mode - Switch
+    bool switchMode = NORMAL;  // 0 = normal (startup - SW = down),  1 = test (SW = up)
+
+
+///////////////////////////////// ---------------------------------------------
+
+
+
+    // initialize tiva board
+    init(&circBuff);
+
+
+    while (1) {
+        
+        if (getSlowTick()) {     // check if slow tick = 1
+            setSlowTick(false);
+
+            // Read raw values from accelerometer
+            getAccelData(&acc.x, &acc.y, &acc.z);
+
+            // Write accelerometer values to each individual buffer
+            circBuff = writeBuff(circBuff, acc);
+            samplesBuffered++;
+            if (samplesBuffered > BUF_SIZE) {
+                samplesBuffered = BUF_SIZE;
+            }
+
+            // Update accelerometer values
+            acc.x = getCircBufMean(&(circBuff.x), samplesBuffered);
+            acc.y = getCircBufMean(&(circBuff.y), samplesBuffered);
+            acc.z = getCircBufMean(&(circBuff.z), samplesBuffered);
+
+            acc = accUpdate(acc, &accSamples, unitState);  // displaying information
+
+            acc.currNorm = NORM_2(acc);
+
+            // Check to see if a step was taken ----------------------------
+            // - i.e acceleration norm increases from less than 1.5G to greater that 1.5G
+            if ((acc.currNorm*10) < (int32_t)((1.5*10)*(GRAVITY_IN_CM))) {   // remember resolution already in cm
+                currState.detectCount = true;
+            } else if (currState.detectCount) {  // When norm is greater then 1.5G - incr step
+                    currState.stepCount++;
+                    currState.distance = (currState.stepCount * 90); // convert m -> cm
+                    currState.detectCount = false;
+            }
+        }
+
+
+    // CurrentState currState;// = { switchMode, dispMode, dispConversion, stepCount, distance };
+    currState = progUpdate(currState);
+
+    // CurrentState progUpdate(CurrentState state) 
+    // { 
+    //     btnCheck(&state.dispMode, &state.dispConversion);
+    //     // switchCheck(&mode)  -- simialr to btnCheck
+
+    //     displayFSM(state.dispMode, state.dispConversion, state.stepCount, state.distance);
+
+    //     // // Select which mode to run
+    //     // if (!state.mode)   // Normal mode
+    //     //     normalMode(dispMode, &btnName, &btnState, &stepCount, &distance);
+    //     // else        // Test mode
+    //     //     testMode(dispMode, &btnName, &btnState, &stepCount, &distance);
+    // }
+
+    // btnCheck(&dispMode, &dispConversion);
+    // // switchCheck(&mode)  -- simialr to btnCheck
+
+    // displayFSM(dispMode, dispConversion, stepCount, distance);
+
+
+    // // Select which mode to run
+    // if (!mode)   // Normal mode
+    //     normalMode(dispMode, &btnName, &btnState, &stepCount, &distance);
+    // else        // Test mode
+    //     testMode(dispMode, &btnName, &btnState, &stepCount, &distance);
+       
+
+    }
+}

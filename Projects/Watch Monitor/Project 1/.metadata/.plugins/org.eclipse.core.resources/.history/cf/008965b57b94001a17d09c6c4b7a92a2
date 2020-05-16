@@ -1,0 +1,5 @@
+# FIXED
+
+src/FSM/display.obj: ../src/FSM/display.c
+
+../src/FSM/display.c: 

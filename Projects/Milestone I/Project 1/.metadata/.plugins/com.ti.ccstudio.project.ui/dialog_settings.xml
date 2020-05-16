@@ -18,5 +18,6 @@
 	<section name="com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage">
 	</section>
 	<section name="com.ti.ccstudio.project.ui.internal.preferences.DynamicPreferencePageManager">
+		<item value="false" key="CCS.VIEW_ADVANCED"/>
 	</section>
 </section>

@@ -1,0 +1,53 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     model.h
+//  
+//  Authors:       P.J. Bones  UCECE department, Grace Kaye-Blake,
+//                 Jonathan Edwards, Riley Symon
+// 
+//  Description:   Store and manage Accelerometer data.
+//  ==========================================================================
+
+
+#ifndef MODEL_H
+#define MODEL_H
+
+#include "../circBufT.h"
+
+
+// -- Global Varibles, defines and Structures --------------------------------------------------
+typedef struct _Acc {  // Accelerometer stored data
+    int32_t x;
+    int32_t y;
+    int32_t z;
+    
+    int32_t prvNorm; // Acceleration norm i.e Sum of abs - (x, y, z)
+    int32_t currNorm;
+} Acc;
+
+typedef struct _RefAcc {  // Reference values
+    int32_t x;
+    int32_t y;
+    int32_t z;
+
+    int32_t norm; // Acceleration norm i.e Sum of abs - (x, y, z)
+} RefAcc;
+
+typedef struct _CircBuff {  // Circular buffers for accelerations
+    circBuf_t x;
+    circBuf_t y;
+    circBuf_t z;
+} CircBuff;
+
+
+// -- functions --------------------------------------------------------------------------------
+Acc        accUpdate(Acc acc, uint32_t *accSamples, uint32_t state);           // Updates accel
+RefAcc     buffMean(CircBuff *circBuff, RefAcc refAcc, uint8_t buffSamples);   // Get buffer means
+CircBuff   writeBuff(CircBuff circBuff, Acc acc);                              // Write to buffer
+RefAcc     meanUpdate(CircBuff *circBuff, RefAcc refAcc, uint32_t accSamples,  // Update buffer mean values
+                      uint8_t buffSamples);
+
+
+#endif // !MODEL_H

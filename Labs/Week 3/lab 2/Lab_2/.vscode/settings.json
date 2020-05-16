@@ -10,7 +10,8 @@
         "*.tcc": "cpp",
         "delay.h": "c",
         "delay_2.h": "c",
-        "tm4c123gh6pm.h": "c"
+        "tm4c123gh6pm.h": "c",
+        "debug.h": "c"
     },
 
     "actionButtons": {

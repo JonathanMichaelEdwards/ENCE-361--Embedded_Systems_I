@@ -1,0 +1,78 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     view.c
+//  
+//  Author:       Jonathan Edwards
+//  Co-Authors:   Grace Kaye-Blake, Riley Symon
+// 
+//  Description:   
+//  ==========================================================================
+
+
+// Standard libaries
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+// Arm Libaries
+#include "inc/hw_memmap.h"
+#include "inc/hw_types.h"
+#include "driverlib/adc.h"
+#include "driverlib/pwm.h"
+#include "driverlib/gpio.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/systick.h"
+#include "driverlib/interrupt.h"
+#include "driverlib/debug.h"
+#include "driverlib/uart.h"
+#include "OrbitOLED/OrbitOLEDInterface.h"
+#include "utils/ustdlib.h"
+
+// Project Libaries - created by us
+#include "FSM_MVC/view.h"
+
+// Constants
+#define MILES      0.621371f
+
+
+
+void display(bool dispMode, bool dispConversion, uint32_t stepCount, uint32_t distance) 
+{
+    char strdisplay[30] = { 0 };
+    uint32_t dispDist = 0;
+
+    if (dispMode) {  // display steps
+        OLEDStringDraw("   Total Steps    ", 0, 0);
+        usnprintf(strdisplay, sizeof(strdisplay), "%d" , stepCount);
+        OLEDStringDraw(strdisplay, 7, 2);
+    } else {  // display distance in km and miles
+        // display correct mode - with correct calculations
+        if (dispConversion) { // calculations for display (cm -> km)  (1 cm -> 1e5 km)
+            OLEDStringDraw("   Distance (Km)     ", 0, 0);
+            dispDist = distance;
+        } else {  // calculations from (cm -> miles)
+            OLEDStringDraw("Distance (Miles)  ", 0, 0);
+            dispDist = (uint32_t)(((float)distance * MILES) + 0.5f);
+        }
+
+        // determine how it will be displayed
+        if (1 < dispDist && dispDist < 1e2-1) // two digets                             // state 1
+            usnprintf(strdisplay, sizeof(strdisplay), "0.000%d", dispDist);
+        else if (1e2 < dispDist && dispDist < 1e3-1) // three digets                   // state 2
+            usnprintf(strdisplay, sizeof(strdisplay), "0.00%d", dispDist);
+        else if (1e3 < dispDist && dispDist < 1e4-1) // four digets
+            usnprintf(strdisplay, sizeof(strdisplay), "0.0%d", dispDist);           // state 3
+        else if (1e4 < dispDist && dispDist < 1e5-1) // five digets
+            usnprintf(strdisplay, sizeof(strdisplay), "0.%d", dispDist);            // state 4
+        else {  // calculations for when distance over 1 Km
+            uint32_t disRound = (dispDist / 1e5);                 // rounded distance
+            uint32_t dec = (((dispDist/1e5) - disRound) * 1e5);  // remaining distance         // state 5
+            usnprintf(strdisplay, sizeof(strdisplay), "%d.%d", disRound, dec);
+
+        }
+
+        OLEDStringDraw(strdisplay, 6, 2);
+    }
+}

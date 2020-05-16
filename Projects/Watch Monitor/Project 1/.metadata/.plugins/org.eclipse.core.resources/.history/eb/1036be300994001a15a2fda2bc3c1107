@@ -1,0 +1,5 @@
+# FIXED
+
+src/FSM_MVC/controller.obj: ../src/FSM_MVC/controller.c
+
+../src/FSM_MVC/controller.c: 

@@ -9979,3 +9979,519 @@ gmake: *** [src/main.obj] Error 1
 gmake: Target 'all' not remade because of errors.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/acc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/acc.d_raw" --obj_directory="src"  "../src/acc.c"
+Finished building: "../src/acc.c"
+ 
+Building file: "../src/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/display.d_raw" --obj_directory="src"  "../src/display.c"
+Finished building: "../src/display.c"
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 284: error #20: identifier "BUFF_SIZE" is undefined
+1 error detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 285: error #45: expression must have pointer type
+"../src/main.c", line 285: error #20: identifier "buffSamples" is undefined
+"../src/main.c", line 286: error #45: expression must have pointer type
+"../src/main.c", line 287: error #45: expression must have pointer type
+4 errors detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 285: error #45: expression must have pointer type
+"../src/main.c", line 285: error #20: identifier "buffSamples" is undefined
+"../src/main.c", line 286: error #45: expression must have pointer type
+"../src/main.c", line 287: error #45: expression must have pointer type
+4 errors detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 285: error #20: identifier "buffSamples" is undefined
+"../src/main.c", line 285: error #169: argument of type "circBuf_t" is incompatible with parameter of type "circBuf_t *"
+"../src/main.c", line 286: error #169: argument of type "circBuf_t" is incompatible with parameter of type "circBuf_t *"
+"../src/main.c", line 287: error #169: argument of type "circBuf_t" is incompatible with parameter of type "circBuf_t *"
+4 errors detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 285: error #76: operand of "*" must be a pointer
+"../src/main.c", line 285: error #20: identifier "buffSamples" is undefined
+"../src/main.c", line 286: error #76: operand of "*" must be a pointer
+"../src/main.c", line 287: error #76: operand of "*" must be a pointer
+4 errors detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 285: error #76: operand of "*" must be a pointer
+"../src/main.c", line 285: error #20: identifier "buffSamples" is undefined
+"../src/main.c", line 286: error #76: operand of "*" must be a pointer
+"../src/main.c", line 287: error #76: operand of "*" must be a pointer
+4 errors detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:23: recipe for target 'src/main.obj' failed
+"../src/main.c", line 285: error #20: identifier "buffSamples" is undefined
+1 error detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 clean -O 
+ 
+DEL /F  "Lab_2.hex"  "Lab_2.out" 
+DEL /F "tm4c123gh6pm_startup_ccs.obj" "ustdlib.obj" "libs\OrbitOLED\OrbitOLEDInterface.obj" "libs\OrbitOLED\lib_OrbitOled\ChrFont0.obj" "libs\OrbitOLED\lib_OrbitOled\FillPat.obj" "libs\OrbitOLED\lib_OrbitOled\OrbitOled.obj" "libs\OrbitOLED\lib_OrbitOled\OrbitOledChar.obj" "libs\OrbitOLED\lib_OrbitOled\OrbitOledGrph.obj" "libs\OrbitOLED\lib_OrbitOled\delay.obj" "src\acc.obj" "src\buttons4.obj" "src\circBufT.obj" "src\delay.obj" "src\display.obj" "src\i2c_driver.obj" "src\main.obj" 
+DEL /F "tm4c123gh6pm_startup_ccs.d" "ustdlib.d" "libs\OrbitOLED\OrbitOLEDInterface.d" "libs\OrbitOLED\lib_OrbitOled\ChrFont0.d" "libs\OrbitOLED\lib_OrbitOled\FillPat.d" "libs\OrbitOLED\lib_OrbitOled\OrbitOled.d" "libs\OrbitOLED\lib_OrbitOled\OrbitOledChar.d" "libs\OrbitOLED\lib_OrbitOled\OrbitOledGrph.d" "libs\OrbitOLED\lib_OrbitOled\delay.d" "src\acc.d" "src\buttons4.d" "src\circBufT.d" "src\delay.d" "src\display.d" "src\i2c_driver.d" "src\main.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/ChrFont0.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/ChrFont0.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/ChrFont0.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/ChrFont0.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/FillPat.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/FillPat.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/FillPat.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/FillPat.c"
+ 
+Building file: "../libs/OrbitOLED/OrbitOLEDInterface.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/OrbitOLEDInterface.d_raw" --obj_directory="libs/OrbitOLED"  "../libs/OrbitOLED/OrbitOLEDInterface.c"
+Finished building: "../libs/OrbitOLED/OrbitOLEDInterface.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/OrbitOled.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/OrbitOled.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/OrbitOled.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/OrbitOled.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/delay.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/delay.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/delay.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/delay.c"
+ 
+Building file: "C:/ti/tivaware_c_series_2_1_4_178/utils/ustdlib.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ustdlib.d_raw"  "C:/ti/tivaware_c_series_2_1_4_178/utils/ustdlib.c"
+Finished building: "C:/ti/tivaware_c_series_2_1_4_178/utils/ustdlib.c"
+ 
+Building file: "../src/acc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/acc.d_raw" --obj_directory="src"  "../src/acc.c"
+Finished building: "../src/acc.c"
+ 
+Building file: "../src/circBufT.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/circBufT.d_raw" --obj_directory="src"  "../src/circBufT.c"
+Finished building: "../src/circBufT.c"
+ 
+Building file: "../src/buttons4.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/buttons4.d_raw" --obj_directory="src"  "../src/buttons4.c"
+Finished building: "../src/buttons4.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c"
+"../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c", line 615: warning #552-D: variable "bTmp" was set but never used
+"../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c", line 818: warning #552-D: variable "pbBmp" was set but never used
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c"
+ 
+Building file: "../src/delay.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/delay.d_raw" --obj_directory="src"  "../src/delay.c"
+Finished building: "../src/delay.c"
+ 
+Building file: "../src/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/display.d_raw" --obj_directory="src"  "../src/display.c"
+Finished building: "../src/display.c"
+ 
+Building file: "../src/i2c_driver.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/i2c_driver.d_raw" --obj_directory="src"  "../src/i2c_driver.c"
+Finished building: "../src/i2c_driver.c"
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Milestone I/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/acc.obj" "./src/buttons4.obj" "./src/circBufT.obj" "./src/delay.obj" "./src/display.obj" "./src/i2c_driver.obj" "./src/main.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****

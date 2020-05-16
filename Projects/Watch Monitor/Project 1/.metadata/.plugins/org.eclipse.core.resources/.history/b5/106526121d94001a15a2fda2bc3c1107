@@ -1,0 +1,50 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     init.h
+//  
+//  Authors:       P.J. Bones  UCECE department, Grace Kaye-Blake,
+//                 Jonathan Edwards, Riley Symon
+// 
+//  Description:   
+//  ==========================================================================
+
+
+#ifndef INIT_H
+#define INIT_H
+
+// Standard libaries
+#include <stdint.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdbool.h>
+
+// Arm Libaries
+#include "inc/hw_memmap.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/systick.h"
+
+
+// Project Libaries - created by us
+#include "FSM/display.h"
+#include "Buffer/circBufT.h"
+#include "Peripherals/buttons4.h"
+#include "Peripherals/acc.h"
+#include "Communications/uart.h"
+
+#include "FSM/model.h"
+#include "FSM/controller.h"
+#include "FSM/Modes/normalMode.h"
+#include "FSM/Modes/testMode.h"
+
+
+
+// -- functions --------------------------------------------------------------------------------
+void setSlowTick(bool _tick);
+bool getSlowTick(void);
+
+void init(CircBuff *circBuff);
+
+
+#endif // !INIT_H

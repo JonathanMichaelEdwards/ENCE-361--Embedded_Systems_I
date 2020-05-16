@@ -1,0 +1,11 @@
+# FIXED
+
+src/FSM_MVC/model.obj: ../src/FSM_MVC/model.c
+src/FSM_MVC/model.obj: C:/ti/tivaware_c_series_2_1_4_178/inc/hw_memmap.h
+src/FSM_MVC/model.obj: C:/ti/tivaware_c_series_2_1_4_178/inc/hw_types.h
+src/FSM_MVC/model.obj: C:/ti/tivaware_c_series_2_1_4_178/driverlib/adc.h
+
+../src/FSM_MVC/model.c: 
+C:/ti/tivaware_c_series_2_1_4_178/inc/hw_memmap.h: 
+C:/ti/tivaware_c_series_2_1_4_178/inc/hw_types.h: 
+C:/ti/tivaware_c_series_2_1_4_178/driverlib/adc.h: 
