@@ -1,0 +1,91 @@
+//  ================================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:       main.c
+//  
+//  Authors:         Jonathan Edwards, Grace Kaye-Blake, Riley Symon
+// 
+// 
+//  Description:   - The program should estimate the number of steps taken by 
+//                   a user based on data from the accelerometer on the
+//                   Orbit board. 
+//                 - A step is detected by whenever the acceleration norm increases
+//                   from less than 1.5G to greater than 1.5G. (G = 9.81 ms^-2)
+//                 - The program should estimate the distance travelled by 
+//                   the user.
+// 
+//                 Global Actions:
+//                 - The RESET button aswell as power cycling resets the program
+//                   back to the STEPS state with values zero.
+//                 - Setting SW1 to the UP position puts the program in test mode 
+//                   and Normal if it is set in the down position.
+//                 - The total distance travelled is calculated from the number of 
+//                   steps multiplied by 0.9 metres
+// 
+//                 Normal Mode:
+//                 - Pushing the LEFT or RIGHT buttons toggle the display between 
+//                   total distance travelled since last reset and number of steps
+//                   counted since last reset.
+//                 - Pushing the Up button toggles the units between kilometres 
+//                   and miles.
+//                 - A long press on the DOWN button i.e roughly 3 sec, resets steps
+//                   or distance depending on state the program is in to 0.
+//                 
+//                Test Mode:
+//                 - Pushing the LEFT or RIGHT buttons toggle the display between 
+//                   total distance in km travelled since last reset and number of 
+//                   steps counted since last reset.
+//                 - A press on the UP button increments the step count by 100 
+//                   and the distance by 0.09 km. 
+//                 - A press on the DOWN button decrements the step count by 500 
+//                   and the distance by 0.45 km.
+//  ================================================================================
+
+
+#include "init.h"
+
+
+
+// -----------------------------------------------------------------------------
+//                              Executes the program                           
+// -----------------------------------------------------------------------------
+int main(void)
+{
+    CurrentState currState = { NORMAL, true, true, 0, 0, 0 };    // Keep track of the current state
+    ProcessData data = { { 0 }, { 0 }, 0, 0 };                   // Keeps track of important data to be processed
+    
+    bool detectCount = false;    // True if a step is taken
+    
+    // Initialize Peripherals
+    init(&data.circBuff);
+
+
+    while (1) {
+        uint8_t swMode = getSwitch();
+        bool nxtDetectCount = true;
+
+        // Read and process accelerometer data 
+        // when in Normal mode and slow tick equals True
+        if (getSlowTick() && (swMode == NORMAL)) { 
+            setSlowTick(false);
+
+            nxtDetectCount = updateTickProcess(detectCount, &data);  // Updates calculation process
+
+            // When the next step is False and previous is True, take a step
+            // This is a debouncing measure to make sure no extra steps are taken
+            if (detectCount && !nxtDetectCount) {   
+                // Increment steps and 
+                // Distance is stored as a 32 bit int value instead of a float, increments by 90 cm as when steps 
+                // is reseted to 0 and distance is greater than 0, distance would be reset on the next cycle
+                currState.stepCount++;
+                currState.distance += STEP_DIST;    // Since steps and distance are independent from eachother when a long press 
+            }                                // on the DOWN button occurs, 90 cm is added to distance instead of stepCount * 90 cm 
+
+            detectCount = nxtDetectCount;  // Detect a rise in step
+        }
+        
+        // Updates the state of the program
+        currState = progUpdate(currState, swMode);
+    }
+}

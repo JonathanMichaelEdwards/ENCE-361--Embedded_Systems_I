@@ -1,0 +1,38 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/Peripherals/acc.c \
+../src/Peripherals/buttons4.c \
+../src/Peripherals/external_events.c 
+
+C_DEPS += \
+./src/Peripherals/acc.d \
+./src/Peripherals/buttons4.d \
+./src/Peripherals/external_events.d 
+
+OBJS += \
+./src/Peripherals/acc.obj \
+./src/Peripherals/buttons4.obj \
+./src/Peripherals/external_events.obj 
+
+OBJS__QUOTED += \
+"src\Peripherals\acc.obj" \
+"src\Peripherals\buttons4.obj" \
+"src\Peripherals\external_events.obj" 
+
+C_DEPS__QUOTED += \
+"src\Peripherals\acc.d" \
+"src\Peripherals\buttons4.d" \
+"src\Peripherals\external_events.d" 
+
+C_SRCS__QUOTED += \
+"../src/Peripherals/acc.c" \
+"../src/Peripherals/buttons4.c" \
+"../src/Peripherals/external_events.c" 
+
+

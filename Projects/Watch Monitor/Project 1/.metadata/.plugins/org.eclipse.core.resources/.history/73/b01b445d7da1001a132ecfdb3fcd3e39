@@ -1,0 +1,36 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     external_events.h
+//  
+//  Authors:       Jonathan Edwards, Riley Symon, Grace Kaye-Blake
+//  ==========================================================================
+
+
+#ifndef CONTROLLER_H
+#define CONTROLLER_H
+
+
+// Standard libaries
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+// Arm Libaries
+#include "Peripherals/buttons4.h"
+#include "init.h"
+
+
+#define TOP_SW_1  GPIO_PIN_7
+
+enum    btnRst     { NA=0,      STEP=1,  DIST=2 };
+enum    swModes    { NORMAL=0,  TEST=1 };
+
+
+// -- functions --------------------------------------------------------------------------------
+uint8_t updateButtons(bool *dispMode, bool *dispConversion, uint8_t *rstBtn, uint8_t mode);
+bool updateSwitch(void);
+
+
+#endif // !CONTROLLER_H

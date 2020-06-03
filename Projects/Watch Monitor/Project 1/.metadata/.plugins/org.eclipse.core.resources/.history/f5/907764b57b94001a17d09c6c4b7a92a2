@@ -1,5 +1,0 @@
-# FIXED
-
-src/FSM/control.obj: ../src/FSM/control.c
-
-../src/FSM/control.c: 

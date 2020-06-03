@@ -1,5 +1,0 @@
-# FIXED
-
-src/kernal.obj: ../src/kernal.c
-
-../src/kernal.c: 

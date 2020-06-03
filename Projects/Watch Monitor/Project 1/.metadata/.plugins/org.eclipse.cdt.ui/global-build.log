@@ -18061,3 +18061,1490 @@ Finished building target: "Lab_2.out"
 gmake[1]: 'Lab_2.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/display.d_raw" --obj_directory="src/FSM"  "../src/FSM/display.c"
+"../src/FSM/display.c", line 52: warning #188-D: pointless comparison of unsigned integer with zero
+Finished building: "../src/FSM/display.c"
+ 
+Building file: "../src/Peripherals/acc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/acc.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/acc.c"
+Finished building: "../src/Peripherals/acc.c"
+ 
+Building file: "../src/FSM/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/control.d_raw" --obj_directory="src/FSM"  "../src/FSM/control.c"
+Finished building: "../src/FSM/control.c"
+ 
+Building file: "../src/FSM/controller.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/controller.d_raw" --obj_directory="src/FSM"  "../src/FSM/controller.c"
+Finished building: "../src/FSM/controller.c"
+ 
+Building file: "../src/Peripherals/buttons4.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/buttons4.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/buttons4.c"
+Finished building: "../src/Peripherals/buttons4.c"
+ 
+Building file: "../src/FSM/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/model.d_raw" --obj_directory="src/FSM"  "../src/FSM/model.c"
+Finished building: "../src/FSM/model.c"
+ 
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+Finished building: "../src/init.c"
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 55: warning #1238-D: excess initializers are ignored
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/controller.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/display.d_raw" --obj_directory="src/FSM"  "../src/FSM/display.c"
+Finished building: "../src/FSM/display.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/controller.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/controller.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/display.d_raw" --obj_directory="src/FSM"  "../src/FSM/display.c"
+"../src/FSM/display.c", line 52: warning #188-D: pointless comparison of unsigned integer with zero
+Finished building: "../src/FSM/display.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/controller.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/display.d_raw" --obj_directory="src/FSM"  "../src/FSM/display.c"
+Finished building: "../src/FSM/display.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/controller.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/display.d_raw" --obj_directory="src/FSM"  "../src/FSM/display.c"
+"../src/FSM/display.c", line 52: warning #188-D: pointless comparison of unsigned integer with zero
+Finished building: "../src/FSM/display.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/controller.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/display.d_raw" --obj_directory="src/FSM"  "../src/FSM/display.c"
+Finished building: "../src/FSM/display.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/controller.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/control.d_raw" --obj_directory="src/FSM"  "../src/FSM/control.c"
+ 
+>> Compilation failure
+src/FSM/subdir_rules.mk:9: recipe for target 'src/FSM/control.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/FSM/control.h", line 36: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/FSM/control.c".
+Compilation terminated.
+gmake: *** [src/FSM/control.obj] Error 1
+Building file: "../src/FSM/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/model.d_raw" --obj_directory="src/FSM"  "../src/FSM/model.c"
+ 
+>> Compilation failure
+src/FSM/subdir_rules.mk:9: recipe for target 'src/FSM/model.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/FSM/control.h", line 36: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/FSM/model.c".
+Compilation terminated.
+gmake: *** [src/FSM/model.obj] Error 1
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/init.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/FSM/control.h", line 36: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/init.c".
+Compilation terminated.
+gmake: *** [src/init.obj] Error 1
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/kernal.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/FSM/control.h", line 36: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/kernal.c".
+Compilation terminated.
+gmake: *** [src/kernal.obj] Error 1
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+ 
+>> Compilation failure
+src/Peripherals/subdir_rules.mk:9: recipe for target 'src/Peripherals/external_events.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/FSM/control.h", line 36: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/Peripherals/external_events.c".
+Compilation terminated.
+gmake: *** [src/Peripherals/external_events.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/control.d_raw" --obj_directory="src/FSM"  "../src/FSM/control.c"
+ 
+>> Compilation failure
+src/FSM/subdir_rules.mk:9: recipe for target 'src/FSM/control.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 40: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/FSM/control.c".
+Compilation terminated.
+gmake: *** [src/FSM/control.obj] Error 1
+Building file: "../src/FSM/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/model.d_raw" --obj_directory="src/FSM"  "../src/FSM/model.c"
+ 
+>> Compilation failure
+src/FSM/subdir_rules.mk:9: recipe for target 'src/FSM/model.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 40: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/FSM/model.c".
+Compilation terminated.
+gmake: *** [src/FSM/model.obj] Error 1
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+ 
+>> Compilation failure
+src/Peripherals/subdir_rules.mk:9: recipe for target 'src/Peripherals/external_events.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 40: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/Peripherals/external_events.c".
+Compilation terminated.
+gmake: *** [src/Peripherals/external_events.obj] Error 1
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/init.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 40: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/init.c".
+Compilation terminated.
+gmake: *** [src/init.obj] Error 1
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/kernal.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 40: fatal error #1965: cannot open source file "FSM/Modes/normalMode.h"
+1 catastrophic error detected in the compilation of "../src/kernal.c".
+Compilation terminated.
+gmake: *** [src/kernal.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/FSM/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/control.d_raw" --obj_directory="src/FSM"  "../src/FSM/control.c"
+Finished building: "../src/FSM/control.c"
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+Finished building: "../src/Peripherals/external_events.c"
+ 
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+Finished building: "../src/init.c"
+ 
+Building file: "../src/FSM/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/FSM/model.d_raw" --obj_directory="src/FSM"  "../src/FSM/model.c"
+Finished building: "../src/FSM/model.c"
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/FSM/control.obj" "./src/FSM/display.obj" "./src/FSM/model.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 clean -O 
+ 
+DEL /F  "Lab_2.hex"  "Lab_2.out" 
+DEL /F "tm4c123gh6pm_startup_ccs.obj" "ustdlib.obj" "libs\OrbitOLED\OrbitOLEDInterface.obj" "libs\OrbitOLED\lib_OrbitOled\ChrFont0.obj" "libs\OrbitOLED\lib_OrbitOled\FillPat.obj" "libs\OrbitOLED\lib_OrbitOled\OrbitOled.obj" "libs\OrbitOLED\lib_OrbitOled\OrbitOledChar.obj" "libs\OrbitOLED\lib_OrbitOled\OrbitOledGrph.obj" "libs\OrbitOLED\lib_OrbitOled\delay.obj" "src\Buffer\circBufT.obj" "src\Communications\i2c_driver.obj" "src\Communications\uart.obj" "src\FSM\control.obj" "src\FSM\display.obj" "src\FSM\model.obj" "src\Peripherals\acc.obj" "src\Peripherals\buttons4.obj" "src\Peripherals\external_events.obj" "src\init.obj" "src\kernal.obj" 
+DEL /F "tm4c123gh6pm_startup_ccs.d" "ustdlib.d" "libs\OrbitOLED\OrbitOLEDInterface.d" "libs\OrbitOLED\lib_OrbitOled\ChrFont0.d" "libs\OrbitOLED\lib_OrbitOled\FillPat.d" "libs\OrbitOLED\lib_OrbitOled\OrbitOled.d" "libs\OrbitOLED\lib_OrbitOled\OrbitOledChar.d" "libs\OrbitOLED\lib_OrbitOled\OrbitOledGrph.d" "libs\OrbitOLED\lib_OrbitOled\delay.d" "src\Buffer\circBufT.d" "src\Communications\i2c_driver.d" "src\Communications\uart.d" "src\FSM\control.d" "src\FSM\display.d" "src\FSM\model.d" "src\Peripherals\acc.d" "src\Peripherals\buttons4.d" "src\Peripherals\external_events.d" "src\init.d" "src\kernal.d" 
+Could Not Find D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\Debug\tm4c123gh6pm_startup_ccs.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../libs/OrbitOLED/OrbitOLEDInterface.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/OrbitOLEDInterface.d_raw" --obj_directory="libs/OrbitOLED"  "../libs/OrbitOLED/OrbitOLEDInterface.c"
+Finished building: "../libs/OrbitOLED/OrbitOLEDInterface.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/ChrFont0.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/ChrFont0.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/ChrFont0.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/ChrFont0.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/FillPat.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/FillPat.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/FillPat.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/FillPat.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/OrbitOled.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/OrbitOled.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/OrbitOled.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/OrbitOled.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/delay.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/delay.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/delay.c"
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/delay.c"
+ 
+Building file: "C:/ti/tivaware_c_series_2_1_4_178/utils/ustdlib.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ustdlib.d_raw"  "C:/ti/tivaware_c_series_2_1_4_178/utils/ustdlib.c"
+Finished building: "C:/ti/tivaware_c_series_2_1_4_178/utils/ustdlib.c"
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+ 
+>> Compilation failure
+src/Peripherals/subdir_rules.mk:9: recipe for target 'src/Peripherals/external_events.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 29: fatal error #1965: cannot open source file "FSM/model.h"
+1 catastrophic error detected in the compilation of "../src/Peripherals/external_events.c".
+Compilation terminated.
+gmake: *** [src/Peripherals/external_events.obj] Error 1
+Building file: "../src/Buffer/circBufT.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Buffer/circBufT.d_raw" --obj_directory="src/Buffer"  "../src/Buffer/circBufT.c"
+Finished building: "../src/Buffer/circBufT.c"
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+ 
+>> Compilation failure
+src/Tasks/subdir_rules.mk:9: recipe for target 'src/Tasks/control.obj' failed
+"../src/Tasks/control.c", line 14: fatal error #1965: cannot open source file "FSM/control.h"
+1 catastrophic error detected in the compilation of "../src/Tasks/control.c".
+Compilation terminated.
+gmake: *** [src/Tasks/control.obj] Error 1
+Building file: "../src/Communications/uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Communications/uart.d_raw" --obj_directory="src/Communications"  "../src/Communications/uart.c"
+Finished building: "../src/Communications/uart.c"
+ 
+Building file: "../src/Communications/i2c_driver.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Communications/i2c_driver.d_raw" --obj_directory="src/Communications"  "../src/Communications/i2c_driver.c"
+Finished building: "../src/Communications/i2c_driver.c"
+ 
+Building file: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.d_raw" --obj_directory="libs/OrbitOLED/lib_OrbitOled"  "../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c"
+"../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c", line 615: warning #552-D: variable "bTmp" was set but never used
+"../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c", line 818: warning #552-D: variable "pbBmp" was set but never used
+Finished building: "../libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.c"
+ 
+Building file: "../src/Peripherals/acc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/acc.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/acc.c"
+Finished building: "../src/Peripherals/acc.c"
+ 
+Building file: "../src/Peripherals/buttons4.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/buttons4.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/buttons4.c"
+Finished building: "../src/Peripherals/buttons4.c"
+ 
+Building file: "../src/Tasks/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/display.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/display.c"
+ 
+>> Compilation failure
+src/Tasks/subdir_rules.mk:9: recipe for target 'src/Tasks/display.obj' failed
+"../src/Tasks/display.c", line 15: fatal error #1965: cannot open source file "FSM/display.h"
+1 catastrophic error detected in the compilation of "../src/Tasks/display.c".
+Compilation terminated.
+gmake: *** [src/Tasks/display.obj] Error 1
+Building file: "../src/Tasks/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/model.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/model.c"
+ 
+>> Compilation failure
+src/Tasks/subdir_rules.mk:9: recipe for target 'src/Tasks/model.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 29: fatal error #1965: cannot open source file "FSM/model.h"
+1 catastrophic error detected in the compilation of "../src/Tasks/model.c".
+Compilation terminated.
+gmake: *** [src/Tasks/model.obj] Error 1
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/init.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 29: fatal error #1965: cannot open source file "FSM/model.h"
+1 catastrophic error detected in the compilation of "../src/init.c".
+Compilation terminated.
+gmake: *** [src/init.obj] Error 1
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/kernal.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/init.h", line 29: fatal error #1965: cannot open source file "FSM/model.h"
+1 catastrophic error detected in the compilation of "../src/kernal.c".
+Compilation terminated.
+gmake: *** [src/kernal.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+Finished building: "../src/Peripherals/external_events.c"
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+Finished building: "../src/Tasks/control.c"
+ 
+Building file: "../src/Tasks/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/display.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/display.c"
+Finished building: "../src/Tasks/display.c"
+ 
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+"../src/init.c", line 146: warning #225-D: function "OLEDInitialise" declared implicitly
+Finished building: "../src/init.c"
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building file: "../src/Tasks/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/model.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/model.c"
+Finished building: "../src/Tasks/model.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+ 
+>> Compilation failure
+src/Peripherals/subdir_rules.mk:9: recipe for target 'src/Peripherals/external_events.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/acc.h", line 69: error #20: identifier "Acc" is undefined
+1 error detected in the compilation of "../src/Peripherals/external_events.c".
+gmake: *** [src/Peripherals/external_events.obj] Error 1
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+ 
+>> Compilation failure
+src/Tasks/subdir_rules.mk:9: recipe for target 'src/Tasks/control.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/acc.h", line 69: error #20: identifier "Acc" is undefined
+1 error detected in the compilation of "../src/Tasks/control.c".
+gmake: *** [src/Tasks/control.obj] Error 1
+Building file: "../src/Tasks/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/model.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/model.c"
+ 
+>> Compilation failure
+src/Tasks/subdir_rules.mk:9: recipe for target 'src/Tasks/model.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/acc.h", line 69: error #20: identifier "Acc" is undefined
+1 error detected in the compilation of "../src/Tasks/model.c".
+gmake: *** [src/Tasks/model.obj] Error 1
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/init.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/acc.h", line 69: error #20: identifier "Acc" is undefined
+"../src/init.c", line 146: warning #225-D: function "OLEDInitialise" declared implicitly
+1 error detected in the compilation of "../src/init.c".
+gmake: *** [src/init.obj] Error 1
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/kernal.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/acc.h", line 69: error #20: identifier "Acc" is undefined
+1 error detected in the compilation of "../src/kernal.c".
+gmake: *** [src/kernal.obj] Error 1
+Building file: "../src/Peripherals/acc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/acc.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/acc.c"
+Finished building: "../src/Peripherals/acc.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Communications/uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Communications/uart.d_raw" --obj_directory="src/Communications"  "../src/Communications/uart.c"
+Finished building: "../src/Communications/uart.c"
+ 
+Building file: "../src/Buffer/circBufT.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Buffer/circBufT.d_raw" --obj_directory="src/Buffer"  "../src/Buffer/circBufT.c"
+Finished building: "../src/Buffer/circBufT.c"
+ 
+Building file: "../src/Peripherals/acc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/acc.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/acc.c"
+Finished building: "../src/Peripherals/acc.c"
+ 
+Building file: "../src/Peripherals/buttons4.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/buttons4.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/buttons4.c"
+Finished building: "../src/Peripherals/buttons4.c"
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+Finished building: "../src/Peripherals/external_events.c"
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+Finished building: "../src/Tasks/control.c"
+ 
+Building file: "../src/Tasks/display.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/display.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/display.c"
+Finished building: "../src/Tasks/display.c"
+ 
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+"../src/init.c", line 146: warning #225-D: function "OLEDInitialise" declared implicitly
+Finished building: "../src/init.c"
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building file: "../src/Tasks/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/model.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/model.c"
+Finished building: "../src/Tasks/model.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 63: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 66: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 50: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 52: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 68: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 70: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 68: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 70: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 63: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 66: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 40: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 68: warning #112-D: statement is unreachable
+"../src/kernal.c", line 68: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 40: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 66: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 41: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 66: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 41: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 66: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 41: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 66: warning #225-D: function "IntMasterEnable" declared implicitly
+"../src/kernal.c", line 43: warning #179-D: variable "nxtDetectCount" was declared but never referenced
+"../src/kernal.c", line 35: warning #179-D: variable "detectCount" was declared but never referenced
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 41: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/kernal.c", line 66: warning #225-D: function "IntMasterEnable" declared implicitly
+"../src/kernal.c", line 43: warning #179-D: variable "nxtDetectCount" was declared but never referenced
+"../src/kernal.c", line 32: warning #179-D: variable "currState" was declared but never referenced
+"../src/kernal.c", line 35: warning #179-D: variable "detectCount" was declared but never referenced
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+ 
+>> Compilation failure
+src/Peripherals/subdir_rules.mk:9: recipe for target 'src/Peripherals/external_events.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+1 error detected in the compilation of "../src/Peripherals/external_events.c".
+gmake: *** [src/Peripherals/external_events.obj] Error 1
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+ 
+>> Compilation failure
+src/Tasks/subdir_rules.mk:9: recipe for target 'src/Tasks/control.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+"../src/Tasks/control.c", line 36: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/control.c", line 38: warning #225-D: function "IntMasterEnable" declared implicitly
+1 error detected in the compilation of "../src/Tasks/control.c".
+gmake: *** [src/Tasks/control.obj] Error 1
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/init.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+"../src/init.c", line 105: error #167: too few arguments in function call
+"../src/init.c", line 146: warning #225-D: function "OLEDInitialise" declared implicitly
+2 errors detected in the compilation of "../src/init.c".
+gmake: *** [src/init.obj] Error 1
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/kernal.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+1 error detected in the compilation of "../src/kernal.c".
+gmake: *** [src/kernal.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+ 
+>> Compilation failure
+src/Peripherals/subdir_rules.mk:9: recipe for target 'src/Peripherals/external_events.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+1 error detected in the compilation of "../src/Peripherals/external_events.c".
+gmake: *** [src/Peripherals/external_events.obj] Error 1
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+ 
+>> Compilation failure
+src/Tasks/subdir_rules.mk:9: recipe for target 'src/Tasks/control.obj' failed
+"D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+"../src/Tasks/control.c", line 36: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/control.c", line 37: warning #225-D: function "btnCheck" declared implicitly
+"../src/Tasks/control.c", line 38: warning #225-D: function "IntMasterEnable" declared implicitly
+1 error detected in the compilation of "../src/Tasks/control.c".
+gmake: *** [src/Tasks/control.obj] Error 1
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/init.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+"../src/init.c", line 105: error #167: too few arguments in function call
+"../src/init.c", line 146: warning #225-D: function "OLEDInitialise" declared implicitly
+2 errors detected in the compilation of "../src/init.c".
+gmake: *** [src/init.obj] Error 1
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:16: recipe for target 'src/kernal.obj' failed
+"D:\Documents\Systems\ENCE-361\Projects\Watch Monitor\Project 1\Lab_2\include\Peripherals/external_events.h", line 32: error #148: declaration is incompatible with "void updateButtons(void)" (declared at line 63 of "D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include/Peripherals/buttons4.h")
+1 error detected in the compilation of "../src/kernal.c".
+gmake: *** [src/kernal.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Peripherals/external_events.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Peripherals/external_events.d_raw" --obj_directory="src/Peripherals"  "../src/Peripherals/external_events.c"
+Finished building: "../src/Peripherals/external_events.c"
+ 
+Building file: "../src/init.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/init.d_raw" --obj_directory="src"  "../src/init.c"
+"../src/init.c", line 146: warning #225-D: function "OLEDInitialise" declared implicitly
+Finished building: "../src/init.c"
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+"../src/Tasks/control.c", line 36: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/control.c", line 38: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/Tasks/control.c"
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+"../src/Tasks/control.c", line 69: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/control.c", line 72: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/Tasks/control.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+"../src/Tasks/control.c", line 39: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/control.c", line 72: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/Tasks/control.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+"../src/Tasks/control.c", line 39: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/control.c", line 72: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/Tasks/control.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+Finished building: "../src/Tasks/control.c"
+ 
+Building file: "../src/Tasks/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/model.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/model.c"
+"../src/Tasks/model.c", line 98: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/model.c", line 100: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/Tasks/model.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/Tasks/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/model.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/model.c"
+"../src/Tasks/model.c", line 82: warning #225-D: function "IntMasterDisable" declared implicitly
+"../src/Tasks/model.c", line 84: warning #225-D: function "IntMasterEnable" declared implicitly
+Finished building: "../src/Tasks/model.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+"../src/kernal.c", line 62: warning #225-D: function "IntMasterEnable" declared implicitly
+"../src/kernal.c", line 65: warning #225-D: function "IntMasterDisable" declared implicitly
+Finished building: "../src/kernal.c"
+ 
+Building file: "../src/Tasks/model.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/model.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/model.c"
+Finished building: "../src/Tasks/model.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/kernal.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/kernal.d_raw" --obj_directory="src"  "../src/kernal.c"
+Finished building: "../src/kernal.c"
+ 
+Building file: "../src/Tasks/control.c"
+Invoking: ARM Compiler
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/libs" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="D:/Documents/Systems/ENCE-361/Projects/Watch Monitor/Project 1/Lab_2/include" --include_path="C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="src/Tasks/control.d_raw" --obj_directory="src/Tasks"  "../src/Tasks/control.c"
+"../src/Tasks/control.c", line 36: warning #225-D: function "IntMasterEnable" declared implicitly
+"../src/Tasks/control.c", line 67: warning #225-D: function "IntMasterDisable" declared implicitly
+Finished building: "../src/Tasks/control.c"
+ 
+Building target: "Lab_2.out"
+Invoking: ARM Linker
+"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab_2.map" --heap_size=256 --stack_size=512 -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./tm4c123gh6pm_startup_ccs.obj" "./ustdlib.obj" "./libs/OrbitOLED/OrbitOLEDInterface.obj" "./libs/OrbitOLED/lib_OrbitOled/ChrFont0.obj" "./libs/OrbitOLED/lib_OrbitOled/FillPat.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOled.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledChar.obj" "./libs/OrbitOLED/lib_OrbitOled/OrbitOledGrph.obj" "./libs/OrbitOLED/lib_OrbitOled/delay.obj" "./src/Buffer/circBufT.obj" "./src/Communications/i2c_driver.obj" "./src/Communications/uart.obj" "./src/Peripherals/acc.obj" "./src/Peripherals/buttons4.obj" "./src/Peripherals/external_events.obj" "./src/Tasks/control.obj" "./src/Tasks/display.obj" "./src/Tasks/model.obj" "./src/init.obj" "./src/kernal.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab_2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs930\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Lab_2.out' is up to date.
+
+**** Build Finished ****

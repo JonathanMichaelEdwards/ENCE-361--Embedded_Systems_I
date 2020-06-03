@@ -1,0 +1,110 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     model.c
+//  
+//  Authors:       Jonathan Edwards, Grace Kaye-Blake, Riley Symon
+// 
+//  Description:   - A step is detected by whenever the acceleration norm increases
+//                   from less than 1.5G to greater than 1.5G. (G = 9.81 ms^-2)
+//                 - Accelerometer accelerotion data resolution is converted
+//                   from m -> cm.
+//                 - Write acc data to circ buffer and get the mean value.
+//  ==========================================================================
+
+
+// Standard libaries
+#include <stdint.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdbool.h>
+
+
+// Project Libaries - created by us
+#include "Peripherals/acc.h"
+
+
+// Square root of the squares 
+#define   NORM_2(ACC)         (uint32_t)((sqrtf((ACC.x)*(ACC.x) + (ACC.y)*(ACC.y) + (ACC.z)*(ACC.z))))
+#define   ACCEL_THRESHOLD     (uint32_t)((1.5f)*(GRAVITY_IN_CM))
+
+
+
+/** -----------------------------------------------------------------------------
+//       Write x, y and z accelerometer acceleration values to each of their
+//                         individual circular buffers 
+// 
+// @param circBuff     - data about each circular buffer
+// @param acc          - accelerometer data
+// 
+// @return circBuff    - updated data about each circular buffer
+// ---------------------------------------------------------------------------*/
+CircBuff writeBuff(CircBuff circBuff, Acc acc)
+{
+    writeCircBuf(&circBuff.x, acc.x);
+    writeCircBuf(&circBuff.y, acc.y);
+    writeCircBuf(&circBuff.z, acc.z);
+
+    return circBuff;
+}
+
+
+/** -----------------------------------------------------------------------------
+//                Convert Accelerometer data resolution from m -> cm
+// 
+// @param acc - accelerometer data
+//
+// @return acc - updated data about each circular buffer
+// ---------------------------------------------------------------------------*/
+Acc accResConvert(Acc acc)
+{
+    acc.x = ((acc.x*GRAVITY*100) / ACCEL_SENSITVITY);
+    acc.y = ((acc.y*GRAVITY*100) / ACCEL_SENSITVITY);
+    acc.z = ((acc.z*GRAVITY*100) / ACCEL_SENSITVITY);
+
+    return acc;
+}  
+
+
+/** -----------------------------------------------------------------------------
+//              Detect whether a step occurs with the current processed 
+//                              accelerometer data
+// 
+// @param detectCount - For step detection
+// @param ptr_data    - Processing data
+
+// @return detect count -  False if step is detected on rise otherwise True
+// ---------------------------------------------------------------------------*/
+bool updateTickProcess(bool detectCount, ProcessData *data)
+{
+    // Read raw values from accelerometer
+    getAcclData(&data->acc);
+
+    // Write accelerometer values to each individual buffer
+    data->circBuff = writeBuff(data->circBuff, data->acc);
+    data->circBuff.samplesBuffered++;
+    if (data->circBuff.samplesBuffered > BUF_SIZE)
+        data->circBuff.samplesBuffered = BUF_SIZE;
+
+    // Update accelerometer values
+    data->acc.x = getCircBufMean(&(data->circBuff.x), data->circBuff.samplesBuffered);
+    data->acc.y = getCircBufMean(&(data->circBuff.y), data->circBuff.samplesBuffered);
+    data->acc.z = getCircBufMean(&(data->circBuff.z), data->circBuff.samplesBuffered);
+
+    // Change resolution
+    data->acc = accResConvert(data->acc);
+
+
+    data->acc.norm = NORM_2(data->acc);  // Convert acc norm value
+
+
+    // Check to see if a step was taken 
+    // - i.e acceleration norm increases from less than 1.5G to greater than 1.5G
+    if ((data->acc.norm) < ACCEL_THRESHOLD)
+        detectCount = true;
+    else if (detectCount)
+        detectCount = false;  // reset count and wait for the next rise
+
+    return detectCount;
+}

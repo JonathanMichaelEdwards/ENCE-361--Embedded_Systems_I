@@ -1,0 +1,74 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:    control.c
+//  
+//  Authors:      Jonathan Edwards, Grace Kaye-Blake, Riley Symon
+// 
+//  Description:    - Controls the functionality of the whole program.
+//                  - First check's tge status of the polling buttons.
+//                  - Then based on the status of the buttons and Switch,
+//                    determine the step and distance.
+//                  - Lastly display information on the OLED display.
+//  ==========================================================================
+
+
+// Project Libaries - created by us
+#include "Tasks/control.h"
+#include "Peripherals/external_events.h"
+#include "Tasks/display.h"
+
+
+
+/** -----------------------------------------------------------------------------
+//               Control's the status of all IO peripheral events
+// 
+// @param state  - State of the program
+// @param swMode - State of the switch
+//
+// @return state - State of the program
+// ---------------------------------------------------------------------------*/
+CurrentState progUpdate(CurrentState state, uint8_t swMode) 
+{ 
+    uint8_t rstBtn = NA;
+
+    IntMasterDisable();
+    uint8_t btnActivity = btnCheck(&state.dispMode, &state.dispConversion, &rstBtn, swMode);
+    IntMasterEnable();
+
+    if (swMode == NORMAL) {
+        if (rstBtn == STEP)         // down button pushed in steps mode - reset value
+            state.stepCount = 0;
+        else if (rstBtn == DIST)    // down button pushed in distance mode - reset value
+            state.distance = 0;
+    } else if (swMode == TEST) {    // Test mode - disable accelerometer and test program's display capabilities
+        if (btnActivity == UP) {    // increment data
+            refreshDisplay();
+            state.stepCount += 100;
+            state.distance += 9e3;
+        } else if (btnActivity == DOWN) {  // decrement data
+            refreshDisplay();
+        
+            if (state.stepCount >= 500) 
+                state.stepCount -= 500;
+            else {
+                state.stepCount = 0;
+                state.distance = 0;
+            } 
+
+            if (state.distance >= 45e3) 
+                state.distance -= 45e3;
+            else {
+                state.stepCount = 0;
+                state.distance = 0;
+            }   
+        }
+    }                       
+
+    // Display info based on bool states
+    displayUpdate(state.dispMode, state.dispConversion, state.stepCount, state.distance);
+
+
+    return state;
+}

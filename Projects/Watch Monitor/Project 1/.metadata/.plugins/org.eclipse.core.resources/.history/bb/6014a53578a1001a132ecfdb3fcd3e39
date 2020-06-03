@@ -1,0 +1,38 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/Tasks/control.c \
+../src/Tasks/display.c \
+../src/Tasks/model.c 
+
+C_DEPS += \
+./src/Tasks/control.d \
+./src/Tasks/display.d \
+./src/Tasks/model.d 
+
+OBJS += \
+./src/Tasks/control.obj \
+./src/Tasks/display.obj \
+./src/Tasks/model.obj 
+
+OBJS__QUOTED += \
+"src\Tasks\control.obj" \
+"src\Tasks\display.obj" \
+"src\Tasks\model.obj" 
+
+C_DEPS__QUOTED += \
+"src\Tasks\control.d" \
+"src\Tasks\display.d" \
+"src\Tasks\model.d" 
+
+C_SRCS__QUOTED += \
+"../src/Tasks/control.c" \
+"../src/Tasks/display.c" \
+"../src/Tasks/model.c" 
+
+

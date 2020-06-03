@@ -1,0 +1,68 @@
+//  ================================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     kernal.c
+//  
+//  Authors:       Jonathan Edwards, Grace Kaye-Blake, Riley Symon
+// 
+// 
+//  Description:   - The program should estimate the number of steps taken by 
+//                   a user based on data from the accelerometer on the
+//                   Orbit board. 
+//                 - A step is detected by whenever the acceleration norm increases
+//                   from less than 1.5G to greater than 1.5G. (G = 9.81 ms^-2)
+//                 - The program should estimate the distance traveled by
+//                   the user.
+//                 - Button Pushes either set or toggle between modes and data 
+//                   throughout the lifetime of the program.
+//                 - Read the README for a more detailed description.
+//  ================================================================================
+
+
+#include "init.h"
+
+
+
+// -----------------------------------------------------------------------------
+//                              Executes the program                           
+// -----------------------------------------------------------------------------
+int main(void)
+{
+    CurrentState currState = { NORMAL, true, true, 0, 0 };   // Keep track of the current state
+    ProcessData data = { { 0 }, { 0 }};               // Keeps track of important data to be processed
+    
+    bool detectCount = false;    // True if a step is taken
+    
+    // Initialize Peripherals
+    init(&data.circBuff);
+
+    while (1) {
+        IntMasterDisable();
+        uint8_t swMode = getSwitch();
+        bool nxtDetectCount = true;
+
+//        // Read and process accelerometer data
+//        // when in Normal mode and slow tick equals True
+//        if (getSlowTick() && (swMode == NORMAL)) {
+//            setSlowTick(false);
+//
+//            nxtDetectCount = updateTickProcess(detectCount, &data);  // Updates computation process
+//
+//            // When the next step is False and previous was True, take a step
+//            // This is a debouncing measure so no extra steps are taken
+//            if (detectCount && !nxtDetectCount) {
+//                // Increment steps by 1 and distance by 90 cm
+//                currState.stepCount++;
+//                currState.distance += STEP_DIST;    // Since steps and distance are independent from each other when a long press on the
+//            }                                       // DOWN button occurs i.e (values reset), 90 cm is added instead of stepCount * 90 cm
+//
+//            detectCount = nxtDetectCount;  // Detect a rise in step
+//        }
+        
+//       IntMasterDisable();
+        // Updates the state of the program
+//        currState = progUpdate(currState, swMode);
+       IntMasterEnable();
+    }
+}

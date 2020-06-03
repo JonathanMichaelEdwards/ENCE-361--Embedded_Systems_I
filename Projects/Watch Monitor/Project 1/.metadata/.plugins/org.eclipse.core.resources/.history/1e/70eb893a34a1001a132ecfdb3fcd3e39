@@ -1,0 +1,43 @@
+//  ==========================================================================
+//  ENCE-361: Embedded Systems 1 (2020);  University of Canterbury
+//  Project:  Personal Fitness Monitor Project
+//
+//  FILE NAME:     control.h
+//  
+//  Author(s):     Grace Kaye-Blake, Jonathan Edwards, Riley Symon
+// 
+//  Description:   
+//  ==========================================================================
+
+
+#ifndef CONTROL_H
+#define CONTROL_H
+
+// Standard libaries
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+
+// Updates FSM prog data
+typedef struct _CurrentState {
+    // Toggle btw modes
+    bool switchMode;
+    bool dispMode;
+    bool dispConversion;
+
+    // prog info - step and distance
+    uint32_t stepCount;
+    uint32_t distance;      // 32 bit int value instead of float - all measurments initially in cm
+} CurrentState;
+
+
+
+#include "FSM/Modes/normalMode.h"
+#include "FSM/Modes/testMode.h"
+
+
+CurrentState progUpdate(CurrentState state, uint8_t swMode);
+
+
+#endif // !CONTROL_H
